@@ -1,0 +1,6 @@
+@YouTubeTwitchMonitoringBot_HostAddress = http://localhost:5101
+
+GET {{YouTubeTwitchMonitoringBot_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
