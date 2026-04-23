@@ -7,14 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Google.Apis.YouTube.v3" Version="1.73.0.4099" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
     <Folder Include="Helpers\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>
